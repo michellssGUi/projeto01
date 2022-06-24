@@ -1,1 +1,1 @@
-web: 
+web: gunicon projeto01.wsgi --log-file -
