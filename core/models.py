@@ -5,5 +5,6 @@ class Produto(models.Model):
     preco = models.DecimalField('Preco', decimal_places=2, max_digits=8)
     estoque = models.IntegerField('Estoque')
     
-    def __str__(self):
+    def __str__(self) -> str:
         return self.nome
+
